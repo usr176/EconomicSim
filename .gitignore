@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

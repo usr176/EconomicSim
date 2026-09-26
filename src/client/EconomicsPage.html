@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Elasticity Curves</title>
+</head>
+<body>
+    
+    <head>
+        <h1>Welcome</h1>
+    </head>
+
+    <div id="input-div">
+        <div class="slider">
+            <label for="supplyInput">Supply</label>
+            <input id="supplyInput" type="range" min="0" max="100" value="30">
+            <span id="supplyLabel"> 0 </span>
+        </div>
+        
+
+        <div class="slider">
+            <label for="demandInput">Demand</label>
+            <input id="demandInput" type="range" min="0" max="100" value="30">
+            <span id="demandLabel"> 0 </span>
+        </div>
+    </div>
+
+    <div id="result-div">
+        <h2>Result</h2>
+
+        <div class="result-box">
+            <span>Message: </span>
+            <p id="message"></p>
+        </div>
+    
+        <div class="result-box">
+            <span>Price: </span>
+            <p id="price"></p>
+        </div>
+
+        <div class="result-box">
+            <span>Quantity: </span>
+            <p id="quantity"></p>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

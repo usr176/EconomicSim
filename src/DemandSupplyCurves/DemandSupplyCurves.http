@@ -1,0 +1,13 @@
+@DemandSupplyCurves_HostAddress = http://localhost:5091
+
+GET {{DemandSupplyCurves_HostAddress}}
+Accept: application/json
+
+###
+POST {{DemandSupplyCurves_HostAddress}}/graph
+Content-Type: application/json
+
+{
+    "SupplyShift": 50,
+    "DemandShift": 20
+}
